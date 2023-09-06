@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="빽다방, 백종원의 커피 전문점, 싸다! 빽다방">
-    <meta name="description" content="싸다! 크다! 백종원의 커피 전문점 빽다방 입니다.">
-    <title>빽다방</title>
+    <meta name="keywords" content="빽다방커피,빽다방,커피 추천">
+    <meta name="description" content="빽다방 성분 상세페이지입니다.">
+    <title>Paik's COFFEE</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="./images/main_sec6_black.png" type="image/x-icon">
     <link rel="icon" href="./images/main_sec6_black.png" type="image/x-icon">
@@ -15,7 +15,7 @@
     <!-- style -->
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/common.css">
-    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/details.css">
 </head>
 <body>
     <header>
@@ -36,7 +36,7 @@
                     <li>
                         <a href="#" class="nav_title">메뉴</a>
                         <ul class="nav">
-                            <li><a href="./product1.html">신메뉴</a></li>
+                            <li><a href="#">신메뉴</a></li>
                             <li><a href="./product2.html">커피</a></li>
                             <li><a href="#">음료</a></li>
                             <li><a href="#">아이스크림/디저트</a></li>
@@ -120,7 +120,7 @@
                         <img src="./images/down.png" alt="">
                     </div>
                     <ul class="details">
-                        <li><a href="./product1.html">신메뉴</a></li>
+                        <li><a href="#">신메뉴</a></li>
                         <li><a href="./product2.html">커피</a></li>
                         <li><a href="#">음료</a></li>
                         <li><a href="#">아이스크림/디저트</a></li>
@@ -175,104 +175,79 @@
             <button type="button" id="search"><img src="./images/search.png" alt="검색하기"></button>
             <button type="button" id="startup"><img src="./images/main_sec6_black.png" alt="창업바로가기"></button>
         </div>
-        <!-- bg -->
-        <div class="swiper bg_top"><!-- Additional required wrapper -->
-            <div class="swiper-wrapper mainbg "><!-- Slides -->
-                <div class="swiper-slide"><a href="#"><img src="./images/bg/paik_bg4.jpg" alt=""></a></div>
-                <div class="swiper-slide"><a href="#"><img src="./images/bg/paik_bg3.jpg" alt=""></a></div>
-                <div class="swiper-slide"><a href="#"><img src="./images/bg/paik_bg2.jpg" alt=""></a></div>
-                <div class="swiper-slide"><a href="#"><img src="./images/bg/paik_bg1.jpg" alt=""></a></div>
+        <h1>MENU</h1>
+        <div class="product_explanation">
+            <img src="./images/details/coffee_11.png" alt="원조커피(ICE)">
+            <div class="explanation">
+                <div class="top_title">
+                    <div class="sns_link">
+                        <h2>원조커피(ICE)</h2>
+                        <a href="https://www.instagram.com/paikscoffee_official/" target="_blank"><img src="./images/ins.png" alt="인스타그램바로가기"></a>
+                        <a href="https://ko-kr.facebook.com/ipaikscoffee/" target="_blank"><img src="./images/facebook_blue.png" alt="페이스북바로가기"></a>
+                    </div>
+                    <p class="contents">ORIGINAL MIXED COFFEE</p>
+                    <span>달콤함 빽다방 대표메뉴, 믹스 커피 종결자!</span>
+                </div>
+                <div class="btn_title">
+                    <div class="ingredient">
+                        <span></span>
+                        <p class="">제품 영양 정보</p>
+                    </div>
+                    <span>1회 제공량 (kcal) : 625ml</span>
+                    <span>카페인(mg) : 371</span>
+                    <span>나트륨(mg) : 22</span>
+                    <span>포화지방(g) : 12</span>
+                    <span>당류 (g) : 45</span>
+                    <span>단백질(g) : 3</span>
+                </div>
             </div>
         </div>
-        <div class="mouse">
-            <img src="./images/mouse_withe.png" alt="">
-            <p>scroll</p>
-        </div>
-        <!-- inner -->
-        <div class="inner"></div>
-        <!-- main2 -->
-        <h2><a href="#">PAIK'S MENU</a></h2>
-        <div class="main2">
-            <a href="#" class="menu_product">
-                <div class="swiper" id="product"><!-- Additional required wrapper -->
-                    <div class="swiper-wrapper best_product"><!-- Slides -->
-                        <div class="swiper-slide slide1"><img src="./images/coffee/coffee_10.png" alt="아메리카노">아메리카노</div>
-                        <div class="swiper-slide slide2"><img src="./images/coffee/coffee_19.png" alt="블랙펄카페라떼">블랙펄카페라떼</div>
-                        <div class="swiper-slide slide3"><img src="./images/coffee/coffee_20.png" alt="빽's카페라떼">빽’s 카페라떼</div>
-                        <div class="swiper-slide slide4"><img src="./images/coffee/coffee_21.png" alt="빽사이즈빽's카페라떼">빽사이즈 빽's카페라떼</div>
-                        <div class="swiper-slide slide5"><img src="./images/coffee/coffee_17.png" alt="바나나카페라떼">바나나 카페라떼</div>
-                        <div class="swiper-slide slide6"><img src="./images/coffee/coffee_18.png" alt="바나나카페라떼">바나나 카페라떼</div>
-                    </div>
+        <div class="coffee_menu_list">
+            <h1>Coffee MENU</h1>
+            <div class="swiper" id="swiper_bg"><!-- Additional required wrapper -->
+                <div class="swiper-wrapper"><!-- Slides -->
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_1.png" alt="달달연유라떼(HOT)"><span>달달연유라떼(HOT)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_2.png" alt="바닐라라떼(HOT)"><span>바닐라라떼(HOT)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_3.png" alt="빽's 카페라떼(HOT)"><span>빽's 카페라떼(HOT)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_4.png" alt="아메라키노(HOT)"><span>아메라키노(HOT)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_5.png" alt="원조커피(HOT)"><span>원조커피(HOT)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_6.png" alt="카라멜마키아또(HOT)"><span>카라멜마키아또(HOT)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_7.png" alt="카페모카(HOT)"><span>카페모카(HOT)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_8.png" alt="달달연유라떼(ICE)"><span>달달연유라떼(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_9.png" alt="바닐라라떼(ICE)"><span>바닐라라떼(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_10.png" alt="아메리카노(ICE)"><span>아메리카노(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_12.png" alt="카라멜마키아또(ICE)"><span>카라멜마키아또(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_13.png" alt="카페모카(ICE)"><span>카페모카(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_14.png" alt="더블에스프레소"><span>더블에스프레소</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_15.png" alt="콜드브루(ICE)"><span>콜드브루(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_16.png" alt="바나나 카페라떼(HOT)"><span>바나나 카페라떼(HOT)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_17.png" alt="바나나 카페라떼(ICE)"><span>바나나 카페라떼(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_18.png" alt="바나나 커피쉐이크"><span>바나나 커피쉐이크</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_19.png" alt="블랙펄카페라떼(ICE)"><span>블랙펄카페라떼(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_20.png" alt="빽's 카페라떼(ICE)"><span>빽's 카페라떼(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_21.png" alt="빽사이즈 빽's 카페라떼(ICE)"><span>빽사이즈 빽's 카페라떼(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_22.png" alt="빽사리즈 아이스티샷추가(ICE)"><span>빽사리즈 아이스티샷추가(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_23.png" alt="빽사이즈 앗!메리카노(ICE)"><span>빽사이즈 앗!메리카노(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_24.png" alt="빽사이즈 원조커피(ICE)"><span>빽사이즈 원조커피(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_25.png" alt="아이스티샷추가(아샷추)"><span>아이스티샷추가(아샷추)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_26.png" alt="아이스크림바닐라라떼(ICE)"><span>아이스크림바닐라라떼(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_27.png" alt="아이스크림카페라떼(ICE)"><span>아이스크림카페라떼(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_28.png" alt="아이스크림카페모카(ICE)"><span>아이스크림카페모카(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_29.png" alt="디카페인 콜드브루(ICE)"><span>디카페인 콜드브루(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_30.png" alt="디카페인 콜드브루(HOT)"><span>디카페인 콜드브루(HOT)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_31.png" alt="콜드브루 디카페인 커피원액"><span>콜드브루 디카페인 커피원액</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_32.png" alt="디카페인 콜드브루라떼(흑당)"><span>디카페인 콜드브루라떼(흑당)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_33.png" alt="디카페인 콜드브루라떼(연유)"><span>디카페인 콜드브루라떼(연유)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_34.png" alt="콜드브루라떼HOT(흑당)"><span>콜드브루라떼HOT(흑당)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_35.png" alt="콜드브루라떼(연유)"><span>콜드브루라떼(연유)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_36.png" alt="디카페인 콜드브루라떼HOT(연유)"><span>디카페인 콜드브루라떼HOT(연유)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_37.png" alt="콜드브루 오리지널 커피원액"><span>콜드브루 오리지널 커피원액</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_38.png" alt="디카페인 콜드브루라떼흑당(ICE)"><span>디카페인 콜드브루라떼흑당(ICE)</span></a></div>
+                    <div class="swiper-slide"><a href="#"><img src="./images/coffee/coffee_39.png" alt="디카페인 콜드브루라떼흑당(HOT)"><span>디카페인 콜드브루라떼흑당(HOT)</span></a></div>
                 </div>
-            </a>
-            <a href="#" class="menu_product">
-                <div class="swiper" id="product"><!-- Additional required wrapper -->
-                    <div class="swiper-wrapper best_product"><!-- Slides -->
-                        <div class="swiper-slide slide1"><img src="./images/drink/drink_73.png" alt="크림소다">크림소다</div>
-                        <div class="swiper-slide slide2"><img src="./images/drink/drink_75.png" alt="키르시 블렌딩 파인">키르시 블렌딩 파인</div>
-                        <div class="swiper-slide slide3"><img src="./images/drink/drink_74.png" alt="키르시 블렌딩 콜라">키르시 블렌딩 콜라</div>
-                        <div class="swiper-slide slide4"><img src="./images/drink/drink_37.png" alt="디아블로 에너지드링크">디아블로 에너지드링크</div>
-                        <div class="swiper-slide slide5"><img src="./images/drink/drink_61.png" alt="완전대봉주스">완전대봉주스</div>
-                        <div class="swiper-slide slide6"><img src="./images/drink/drink_76.png" alt="패션후르츠스무디">패션후르츠스무디</div>
-                    </div>
-                </div>
-            </a>
-            <a href="#" class="menu_product">
-                <div class="swiper" id="product"><!-- Additional required wrapper -->
-                    <div class="swiper-wrapper best_product"><!-- Slides -->
-                        <div class="swiper-slide slide1"><img src="./images/ccino/paiks_4.png" alt="원조빽스치노(SOFT)">원조빽스치노(SOFT)</div>
-                        <div class="swiper-slide slide2"><img src="./images/ccino/paiks_6.png" alt="딸기바나나빽스치노(SOFT)">딸기바나나빽스치노(SOFT)</div>
-                        <div class="swiper-slide slide3"><img src="./images/ccino/paiks_9.png" alt="초코바나나빽스치노(SOFT)">초코바나나빽스치노(SOFT)</div>
-                        <div class="swiper-slide slide4"><img src="./images/ccino/paiks_16.png" alt="쿠키크런치빽스치노(SOFT)">쿠키크런치빽스치노(SOFT)</div>
-                        <div class="swiper-slide slide5"><img src="./images/ccino/paiks_19.png" alt="퐁당치노(원조커피)">퐁당치노(원조커피)</div>
-                        <div class="swiper-slide slide6"><img src="./images/ccino/paiks_21.png" alt="피스타치오빽스치노(SOFT)">피스타치오빽스치노(SOFT)</div>
-                    </div>
-                </div>
-            </a>
-            <a href="#" class="menu_product">
-                <div class="swiper" id="product"><!-- Additional required wrapper -->
-                    <div class="swiper-wrapper best_product"><!-- Slides -->
-                        <div class="swiper-slide slide1"><img src="./images/bread/bread2.png" alt="노말한소프트">노말한소프트</div>
-                        <div class="swiper-slide slide2"><img src="./images/bread/bread3.png" alt="달고나크런치">달고나크런치</div>
-                        <div class="swiper-slide slide3"><img src="./images/bread/bread4.png" alt="맛카롱(딸기크런치)">맛카롱(딸기크런치)</div>
-                        <div class="swiper-slide slide4"><img src="./images/bread/bread5.png" alt="맛카롱(순우유)">맛카롱(순우유)</div>
-                        <div class="swiper-slide slide5"><img src="./images/bread/bread6.png" alt="맛카롱(초코크런치)">맛카롱(초코크런치)</div>
-                        <div class="swiper-slide slide6"><img src="./images/bread/bread7.png" alt="못난이 생크림 카스텔라">못난이 생크림 카스텔라</div>
-                    </div>
-                </div>
-            </a>
-        </div>
-        <div class="main3">
-            <div class="m3_left">
-                <h3><span>PAIK'S Coffee & Brand</span><br>STORY</h3>
-                <div class="story">
-                    <a href="#"><img src="./images/btn/coffeelogo1.png" alt="커피스토리바로가기">커피스토리</a>
-                    <a href="#"><img src="./images/btn/brandlogo.png" alt="브랜드스토리바로가기">브랜드스토리</a>
-                    <a href="#"><img src="./images/btn/presentation_btn.png" alt="창업설명회신청하기">창업설명회 신청</a>
-                    <a href="#"><img src="./images/btn/counsel_btn.png" alt="청업상담신청바로가기">창업 상담 신청</a>
-                </div>
-            </div>
-            <div class="m3_right">
-                <div class="r_top">
-                    <a href="#">
-                        <div class="content1">
-                            <h3>NEWS & EVENTS</h3>
-                            <p class="event_title">[이벤트][빽다방 x 디아블로 IV 굿즈 이벤트 당첨자 발표]</p>
-                            <p class="event_day">2013/03/18 ~ 2023/10/18</p>
-                        </div>
-                        <img src="./images/next.png" alt="">
-                    </a>
-                </div>
-                <div class="r_btm">
-                    <a href="#">
-                        <div class="content2">
-                            <h3>NEWS & EVENTS</h3>
-                            <p class="event_title">[이벤트][빽다방 x 패스오더]앗!메리카노가 100원!</p>
-                            <p class="event_day">2013/03/18 ~ 2023/10/18</p>
-                        </div>
-                        <img src="./images/next_white.png" alt="">
-                    </a>
-                </div>
+                <!-- 슬라이드 이전, 다음 버튼 -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
             </div>
         </div>
     </main>
@@ -311,7 +286,7 @@
         </div>
     </footer>
     <p class="copyright">COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED</p>
-    <script src="./js/index.js"></script>
     <script src="./js/script.js"></script>
+    <script src="./js/details.js"></script>
 </body>
 </html>

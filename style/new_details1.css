@@ -1,0 +1,70 @@
+main h1 {
+    font-family:'MBC1961M';
+    text-align:center; font-size:2.38rem; color:#071F60;
+    margin-top:180px; margin-bottom:88px;
+}
+main .product_explanation {
+    display:flex; flex-flow:row nowrap; background:#FFF7AA;
+    align-items:center; justify-content:center; letter-spacing:-0.02em;
+}
+main .product_explanation img {margin-right:180px;}
+main .product_explanation .explanation {}
+main .product_explanation .explanation .top_title {margin-bottom:70px;}
+main .product_explanation .explanation .top_title .sns_link {
+    display:flex; align-items:center;
+}
+main .product_explanation .explanation .top_title .sns_link h2 {
+    font-size:1.8rem; font-weight:700; color:#071F60; margin-right:50px;
+}
+main .product_explanation .explanation .top_title .sns_link a {}
+main .product_explanation .explanation .top_title .sns_link a img {width:30px; height:30px; margin-right:40px;}
+main .product_explanation .explanation .top_title .contents {
+    font-size:1.8rem; font-weight:700; color:#071F60;
+    margin:10px 0;
+}
+main .product_explanation .explanation .top_title span {color:#071F60; font-size:1.1rem; letter-spacing:-0.04em;}
+main .product_explanation .explanation .btn_title {display:flex; flex-flow:column nowrap;}
+main .product_explanation .explanation .btn_title .ingredient {display:flex; align-items:center;}
+main .product_explanation .explanation .btn_title .ingredient p {
+    font-size:1.1rem; font-weight:600;
+    color:#071F60; margin-bottom:15px;
+}
+main .product_explanation .explanation .btn_title .ingredient span {
+    display:inline-block; width:13px; height:13px;
+    background:#071F60; margin-right:10px;
+}
+main .product_explanation .explanation .btn_title span {margin-bottom:15px; color:#071F60;}
+main .coffee_menu_list {}
+main .coffee_menu_list h1 {}
+main .coffee_menu_list .swiper {}
+main .coffee_menu_list #swiper_bg {
+    border-top:1px solid #FFE800;
+    border-bottom:1px solid #FFE800;
+    margin-bottom:160px;
+}
+main .coffee_menu_list #swiper_bg .swiper-wrapper {margin:20px 0;}
+main .coffee_menu_list #swiper_bg .swiper-wrapper .swiper-slide {}
+main .coffee_menu_list #swiper_bg .swiper-slide a {}
+main .coffee_menu_list #swiper_bg .swiper-slide a span {
+    display:inline-block; text-align: center; width:300px;
+    color:#071F60; font-family: 'MBC1961M';
+}
+main .coffee_menu_list #swiper_bg .swiper-slide a img {width:300px; height:400px;}
+/* 슬라이드 버튼 */
+main .coffee_menu_list #swiper_bg .swiper-button-prev {
+    background:center;
+    background-image:url(../images/prev.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:50px; height:50px;
+
+}
+main .coffee_menu_list #swiper_bg .swiper-button-next {
+    background:center;
+    background-image:url(../images/next_btn.png);
+    background-repeat:no-repeat;
+    background-size:cover;
+    width:50px; height:50px;
+}
+main .coffee_menu_list #swiper_bg .swiper-button-prev::after {display:none;}
+main .coffee_menu_list #swiper_bg .swiper-button-next::after {display:none;}

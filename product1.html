@@ -3,9 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="keywords" content="빽다방, 백종원의 커피 전문점, 싸다! 빽다방">
-    <meta name="description" content="싸다! 크다! 백종원의 커피 전문점 빽다방 입니다.">
-    <title>빽다방</title>
+    <meta name="keywords" content="빽다방 메뉴, 빽다방, 빽다방 커피">
+    <meta name="description" content="빽다방 커피 상품 리스트 페이지입니다.">
+    <title>싸다! 맛있다! 빽다방!</title>
     <!-- favicon -->
     <link rel="shortcut icon" href="./images/main_sec6_black.png" type="image/x-icon">
     <link rel="icon" href="./images/main_sec6_black.png" type="image/x-icon">
@@ -16,6 +16,7 @@
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/common.css">
     <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/new_page.css">
 </head>
 <body>
     <header>
@@ -175,105 +176,142 @@
             <button type="button" id="search"><img src="./images/search.png" alt="검색하기"></button>
             <button type="button" id="startup"><img src="./images/main_sec6_black.png" alt="창업바로가기"></button>
         </div>
-        <!-- bg -->
-        <div class="swiper bg_top"><!-- Additional required wrapper -->
-            <div class="swiper-wrapper mainbg "><!-- Slides -->
-                <div class="swiper-slide"><a href="#"><img src="./images/bg/paik_bg4.jpg" alt=""></a></div>
-                <div class="swiper-slide"><a href="#"><img src="./images/bg/paik_bg3.jpg" alt=""></a></div>
-                <div class="swiper-slide"><a href="#"><img src="./images/bg/paik_bg2.jpg" alt=""></a></div>
-                <div class="swiper-slide"><a href="#"><img src="./images/bg/paik_bg1.jpg" alt=""></a></div>
-            </div>
-        </div>
-        <div class="mouse">
-            <img src="./images/mouse_withe.png" alt="">
-            <p>scroll</p>
-        </div>
-        <!-- inner -->
-        <div class="inner"></div>
-        <!-- main2 -->
-        <h2><a href="#">PAIK'S MENU</a></h2>
-        <div class="main2">
-            <a href="#" class="menu_product">
-                <div class="swiper" id="product"><!-- Additional required wrapper -->
-                    <div class="swiper-wrapper best_product"><!-- Slides -->
-                        <div class="swiper-slide slide1"><img src="./images/coffee/coffee_10.png" alt="아메리카노">아메리카노</div>
-                        <div class="swiper-slide slide2"><img src="./images/coffee/coffee_19.png" alt="블랙펄카페라떼">블랙펄카페라떼</div>
-                        <div class="swiper-slide slide3"><img src="./images/coffee/coffee_20.png" alt="빽's카페라떼">빽’s 카페라떼</div>
-                        <div class="swiper-slide slide4"><img src="./images/coffee/coffee_21.png" alt="빽사이즈빽's카페라떼">빽사이즈 빽's카페라떼</div>
-                        <div class="swiper-slide slide5"><img src="./images/coffee/coffee_17.png" alt="바나나카페라떼">바나나 카페라떼</div>
-                        <div class="swiper-slide slide6"><img src="./images/coffee/coffee_18.png" alt="바나나카페라떼">바나나 카페라떼</div>
+        <h1><a href="#">MENU</a></h1>
+        <ul class="product_title">
+            <li>
+                <a href="./product1.html">NEW & BEST</a>
+                <sup>14</sup>
+            </li>
+            <li>
+                <a href="./product2.html">Coffee</a>
+                <sup>39</sup>
+            </li>
+            <li>
+                <a href="#">Drink</a>
+                <sup>77</sup>
+            </li>
+            <li>
+                <a href="#">Dessert</a>
+                <sup>16</sup>
+            </li>
+            <li>
+                <a href="#">Paik's ccino</a>
+                <sup>21</sup>
+            </li>
+        </ul>
+        <ul class="coffee_list">
+            <li>
+                <!-- <span class="best">BEST</span> -->
+                <a href="./new_details.html">
+                    <img src="./images/drink/drink_73.png" alt="크림소다">
+                    <div class="btn_title">
+                        <p>크림소다</p>
+                        <span>ICE</span>
                     </div>
-                </div>
-            </a>
-            <a href="#" class="menu_product">
-                <div class="swiper" id="product"><!-- Additional required wrapper -->
-                    <div class="swiper-wrapper best_product"><!-- Slides -->
-                        <div class="swiper-slide slide1"><img src="./images/drink/drink_73.png" alt="크림소다">크림소다</div>
-                        <div class="swiper-slide slide2"><img src="./images/drink/drink_75.png" alt="키르시 블렌딩 파인">키르시 블렌딩 파인</div>
-                        <div class="swiper-slide slide3"><img src="./images/drink/drink_74.png" alt="키르시 블렌딩 콜라">키르시 블렌딩 콜라</div>
-                        <div class="swiper-slide slide4"><img src="./images/drink/drink_37.png" alt="디아블로 에너지드링크">디아블로 에너지드링크</div>
-                        <div class="swiper-slide slide5"><img src="./images/drink/drink_61.png" alt="완전대봉주스">완전대봉주스</div>
-                        <div class="swiper-slide slide6"><img src="./images/drink/drink_76.png" alt="패션후르츠스무디">패션후르츠스무디</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/coffee/coffee_20.png" alt="원조커피(ICE)">
+                    <div class="btn_title">
+                        <p>원조커피</p>
+                        <span>ICE</span>
                     </div>
-                </div>
-            </a>
-            <a href="#" class="menu_product">
-                <div class="swiper" id="product"><!-- Additional required wrapper -->
-                    <div class="swiper-wrapper best_product"><!-- Slides -->
-                        <div class="swiper-slide slide1"><img src="./images/ccino/paiks_4.png" alt="원조빽스치노(SOFT)">원조빽스치노(SOFT)</div>
-                        <div class="swiper-slide slide2"><img src="./images/ccino/paiks_6.png" alt="딸기바나나빽스치노(SOFT)">딸기바나나빽스치노(SOFT)</div>
-                        <div class="swiper-slide slide3"><img src="./images/ccino/paiks_9.png" alt="초코바나나빽스치노(SOFT)">초코바나나빽스치노(SOFT)</div>
-                        <div class="swiper-slide slide4"><img src="./images/ccino/paiks_16.png" alt="쿠키크런치빽스치노(SOFT)">쿠키크런치빽스치노(SOFT)</div>
-                        <div class="swiper-slide slide5"><img src="./images/ccino/paiks_19.png" alt="퐁당치노(원조커피)">퐁당치노(원조커피)</div>
-                        <div class="swiper-slide slide6"><img src="./images/ccino/paiks_21.png" alt="피스타치오빽스치노(SOFT)">피스타치오빽스치노(SOFT)</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/coffee/coffee_20.png" alt="빽's 카페라떼">
+                    <div class="btn_title">
+                        <p>빽's 카페라떼</p>
+                        <span>ICE</span>
                     </div>
-                </div>
-            </a>
-            <a href="#" class="menu_product">
-                <div class="swiper" id="product"><!-- Additional required wrapper -->
-                    <div class="swiper-wrapper best_product"><!-- Slides -->
-                        <div class="swiper-slide slide1"><img src="./images/bread/bread2.png" alt="노말한소프트">노말한소프트</div>
-                        <div class="swiper-slide slide2"><img src="./images/bread/bread3.png" alt="달고나크런치">달고나크런치</div>
-                        <div class="swiper-slide slide3"><img src="./images/bread/bread4.png" alt="맛카롱(딸기크런치)">맛카롱(딸기크런치)</div>
-                        <div class="swiper-slide slide4"><img src="./images/bread/bread5.png" alt="맛카롱(순우유)">맛카롱(순우유)</div>
-                        <div class="swiper-slide slide5"><img src="./images/bread/bread6.png" alt="맛카롱(초코크런치)">맛카롱(초코크런치)</div>
-                        <div class="swiper-slide slide6"><img src="./images/bread/bread7.png" alt="못난이 생크림 카스텔라">못난이 생크림 카스텔라</div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/coffee/coffee_25.png" alt="아샷추">
+                    <div class="btn_title">
+                        <p>아샷추</p>
+                        <span>ICE</span>
                     </div>
-                </div>
-            </a>
-        </div>
-        <div class="main3">
-            <div class="m3_left">
-                <h3><span>PAIK'S Coffee & Brand</span><br>STORY</h3>
-                <div class="story">
-                    <a href="#"><img src="./images/btn/coffeelogo1.png" alt="커피스토리바로가기">커피스토리</a>
-                    <a href="#"><img src="./images/btn/brandlogo.png" alt="브랜드스토리바로가기">브랜드스토리</a>
-                    <a href="#"><img src="./images/btn/presentation_btn.png" alt="창업설명회신청하기">창업설명회 신청</a>
-                    <a href="#"><img src="./images/btn/counsel_btn.png" alt="청업상담신청바로가기">창업 상담 신청</a>
-                </div>
-            </div>
-            <div class="m3_right">
-                <div class="r_top">
-                    <a href="#">
-                        <div class="content1">
-                            <h3>NEWS & EVENTS</h3>
-                            <p class="event_title">[이벤트][빽다방 x 디아블로 IV 굿즈 이벤트 당첨자 발표]</p>
-                            <p class="event_day">2013/03/18 ~ 2023/10/18</p>
-                        </div>
-                        <img src="./images/next.png" alt="">
-                    </a>
-                </div>
-                <div class="r_btm">
-                    <a href="#">
-                        <div class="content2">
-                            <h3>NEWS & EVENTS</h3>
-                            <p class="event_title">[이벤트][빽다방 x 패스오더]앗!메리카노가 100원!</p>
-                            <p class="event_day">2013/03/18 ~ 2023/10/18</p>
-                        </div>
-                        <img src="./images/next_white.png" alt="">
-                    </a>
-                </div>
-            </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/drink/drink_70.png" alt="청포도에이드">
+                    <div class="btn_title">
+                        <p>청포도에이드</p>
+                        <span>ICE</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/drink/drink_65.png" alt="완전토마토">
+                    <div class="btn_title">
+                        <p>완전토마토</p>
+                        <span>ICE</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/drink/drink_38.png" alt="딸기라떼">
+                    <div class="btn_title">
+                        <p>딸기라떼</p>
+                        <span>HOT</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/ccino/paiks_14.png" alt="원조빽스치노(SOFT)">
+                    <div class="btn_title">
+                        <p>원조빽스치노(SOFT)</p>
+                        <span>ICE</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/ccino/paiks_6.png" alt="딸기바나나빽스치노(SOFT)">
+                    <div class="btn_title">
+                        <p>딸기바나나빽스치노(SOFT)</p>
+                        <span>ICE</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/ccino/paiks_9.png" alt="초코바나나빽스치노(SOFT)">
+                    <div class="btn_title">
+                        <p>초코바나나빽스치노(SOFT)</p>
+                        <span>ICE</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/ccino/paiks_21.png" alt="피스타치오빽스치노(SOFT)">
+                    <div class="btn_title">
+                        <p>피스타치오빽스치노(SOFT)</p>
+                        <span>ICE</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/bread/bread15.png" alt="크리미슈">
+                    <div class="btn_title">
+                        <p>크리미슈</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="list_btn">
+            <a href="#">1</a>
+            <a href="#">2</a>
         </div>
     </main>
     <footer>
@@ -311,7 +349,6 @@
         </div>
     </footer>
     <p class="copyright">COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED</p>
-    <script src="./js/index.js"></script>
     <script src="./js/script.js"></script>
 </body>
 </html>
