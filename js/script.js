@@ -69,7 +69,7 @@ closer.addEventListener('click',function(){
 })
 
 // 메뉴 리스트
-const groupBtns = document.querySelectorAll('.group > a');
+const groupBtns = document.querySelectorAll('.group');
 const detailsLists = document.querySelectorAll('.details');
 const groupImgs = document.querySelectorAll('.group > img');
 

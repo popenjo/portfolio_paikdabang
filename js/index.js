@@ -21,18 +21,8 @@ const product = new Swiper('#product',{
     loop:true,
     speed:1000,
     direction:'horizontal',
+    slidesPerView: 'auto',
 })
 
-
-
-const btnAll = document.querySelectorAll('button')
-const link1 = document.querySelector('#link1')
-const link2 = document.querySelector('#link2')
-const link3 = document.querySelector('#link3')
-console.log(link1, link2, link3, btnAll)
-
-const headerSection = document.querySelector('header');
-const main2Section = document.querySelector('.inner');
-const footerSection = document.querySelector('footer');
 
 // 검색기능

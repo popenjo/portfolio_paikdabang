@@ -65,7 +65,6 @@ main .main2 a {}
 main .main2 a img {width:400px; height:600px;}
 main .main2 .menu_product #product .best_product {}
 main .main2 .menu_product #product .best_product .swiper-slide {
-    /* width:300px; */
     padding:15px 0;
     display:flex; flex-flow:column nowrap; align-items:center;
     font-family:'MBC1961M'; color:#071F60;

@@ -1,6 +1,6 @@
 body, html {scroll-behavior:smooth;}
 /* all */
-header, main, footer {min-width:1920px; letter-spacing:-0.02em;}
+header, main, footer {letter-spacing:-0.02em;}
 /* swiper */
 header #swiper_bg {
     min-width:1920px;
@@ -19,19 +19,33 @@ header .top_title {
 header .top_title h1 {}
 header .top_title h1 a {}
 header .top_title h1 a img {}
-header .top_title nav {display:flex; align-items:center;}
-header .top_title nav > ul {display:flex; flex-flow:row wrap;}
-header .top_title nav > ul li {display:flex; flex-flow:column;}
+header .top_title nav {}
+header .top_title nav > ul {display:flex; flex-flow:row nowrap;}
+header .top_title nav > ul li {margin:0 30px;}
+header .top_title nav > ul li:last-child {margin-right:0;}
 header .top_title nav > ul li .nav_title {
     font-weight:500; font-family: 'MBC1961M';
-    text-align:center; margin-right:50px;
+    text-align:center;
     color:#071F60;
 }
 header .top_title nav > ul li .nav_title:last-child {margin-right:0;}
 header .top_title nav > ul li .nav_title:hover {color:#FFE800; transition:all 0.3s;}
-header .top_title nav > ul li .nav {display:none;} /* 제목에 올렸을때 보이기 */
-header .top_title nav > ul li .nav li {background: #071F60;}
-header .top_title nav > ul li .nav li a {}
+header .top_title nav > ul li .contents {
+    background: #FFFBD8;
+    text-align:center;
+    height:0;
+    overflow: hidden;
+    z-index:99;
+    position:absolute; top:74px;
+    transition:all 0.3s ease-in-out, opacity 0.3s ease-in-out;
+} /* 제목에 올렸을때 보이기 */
+header .top_title nav ul li:hover .contents {
+    height:200px;
+}
+header .top_title nav > ul li .contents {}
+header .top_title nav > ul li .contents li {margin-bottom:15px;}
+header .top_title nav > ul li .contents li a {}
+header .top_title nav > ul li .contents li a:hover {font-weight:600;}
 header .top_title .top_right {display:flex; align-items:center;}
 header .top_title .top_right a {}
 header .top_title .top_right #user_search {margin:0 30px; background:#fff;}

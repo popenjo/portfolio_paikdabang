@@ -1,0 +1,28 @@
+@media screen and (max-width:1300px){
+    header {width:100%;}
+    header nav {
+        display:none;
+    }
+    header .top_title h1 a img {
+        width:120px; height:40px;
+    }
+    .top_right a {
+        display:none;
+    }
+}
+
+@media screen and (max-width:650px) {
+    header {width:650px;}
+    main h2 a {}
+}
+
+@media screen and (max-width:850px) {
+    .bg_top {
+        width:850px; 
+    }
+    main h2 a {font-size:2.1rem;}
+    main .main2 .menu_product #product .best_product .swiper-slide {
+        width:300px;
+    }
+    main .main2 .menu_product #product .best_product .swiper-slide img {width:150px; height:200px;}
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="keywords" content="빽다방 메뉴, 빽다방, 빽다방 커피">
+    <meta name="description" content="빽다방 커피 상품 리스트 페이지입니다.">
+    <title>싸다! 맛있다! 빽다방!</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/main_sec6_black.png" type="image/x-icon">
+    <link rel="icon" href="./images/main_sec6_black.png" type="image/x-icon">
+    <!-- swiper -->
+    <link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <!-- style -->
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/common.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/new_page.css">
+    <style>
+        main .coffee_list {
+        display:flex; flex-flow:row wrap; justify-content:flex-start;
+        margin:0 400px;
+        }
+        main .list_btn a:first-child {background:#FFE800; color:fff;} 
+        main .list_btn a {padding:15px; background: #071F60; color:#fff; border-radius:100%;} 
+    </style>
+</head>
+<body>
+    <header>
+        <div class="top_title">
+            <h1><a href="./index.html"><img src="./images/logo.png" alt="빽다방로고"></a></h1>
+            <nav>
+                <ul>
+                    <li>
+                        <a href="./sub1.html" class="nav_title">빽다방</a>
+                        <ul class="contents">
+                            <li><a href="./sub1.html">CEO 인사말</a></li>
+                            <li><a href="./sub1.html">빽다방 소개</a></li>
+                            <li><a href="./sub1.html">멤버십/앱 소개</a></li>
+                            <li><a href="./sub1.html">커피 이야기</a></li>
+                            <li><a href="./sub1.html">교육 이야기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="./product1.html" class="nav_title">메뉴</a>
+                        <ul class="contents">
+                            <li><a href="./product1.html">신메뉴</a></li>
+                            <li><a href="./product2.html">커피</a></li>
+                            <li><a href="#">음료</a></li>
+                            <li><a href="#">아이스크림/디저트</a></li>
+                            <li><a href="#">빽스치노</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_title">소식</a>
+                        <ul class="contents">
+                            <li><a href="./sub1.html">소식</a></li>
+                            <li><a href="./sub1.html">이벤트</a></li>
+                            <li><a href="./sub1.html">친절 우수매장</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_title">커뮤니티</a>
+                        <ul class="contents">
+                            <li><a href="./sub1.html">커피 클래스</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_title">매장안내</a>
+                        <ul class="contents">
+                            <li><a href="#">매장찾기</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_title">창업안내</a>
+                        <ul class="contents">
+                            <li><a href="./sub1.html">빽다방인 이유</a></li>
+                            <li><a href="./sub1.html">창업상담 신청</a></li>
+                            <li><a href="./sub1.html">창업절차 및 조건</a></li>
+                            <li><a href="./sub1.html">인테리어</a></li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="#" class="nav_title">고객의소리</a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="top_right">
+                <a href="#">English</a>
+                <button type="button" id="user_search">
+                    <img src="./images/search.png" alt="검색버튼">
+                </button>
+                <div class="menu_btn">
+                    <span class="m1"></span>
+                    <span class="m2"></span>
+                    <span class="m3"></span>
+                </div>
+            </div>
+        </div>
+        <div class="menu">
+            <div class="menu_top">
+                <button type="button" id="closer">
+                    <span></span>
+                    <span></span>
+                </button>
+                <div class="sns_icon">
+                    <a href="https://www.instagram.com/paikscoffee_official/" target="_blank"><img src="./images/ins.png" alt="인스타바로가기"></a>
+                    <a href="https://ko-kr.facebook.com/ipaikscoffee/" target="_blank"><img src="./images/facebook_blue.png" alt="페이스북바로가기"></a>
+                </div>
+            </div>
+            <ul class="list">
+                <li>
+                    <div class="group">
+                        <a href="./sub1.html">빽다방</a>
+                        <img src="./images/down.png" alt="">
+                    </div>
+                    <ul class="details">
+                        <li><a href="./sub1.html">CEO 인사말</a></li>
+                        <li><a href="./sub1.html">빽다방 소개</a></li>
+                        <li><a href="./sub1.html">맴버십/앱 소개</a></li>
+                        <li><a href="./sub1.html">커피 이야기</a></li>
+                        <li><a href="./sub1.html">교육이야기</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="group">
+                        <a href="./product1.html">PAIK'S MENU</a>
+                        <img src="./images/down.png" alt="">
+                    </div>
+                    <ul class="details">
+                        <li><a href="./product1.html">신메뉴</a></li>
+                        <li><a href="./product2.html">커피</a></li>
+                        <li><a href="#">음료</a></li>
+                        <li><a href="#">아이스크림/디저트</a></li>
+                        <li><a href="#">빽스치노</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="group">
+                        <a href="./sub1.html">빽소식</a>
+                        <img src="./images/down.png" alt="">
+                    </div>
+                    <ul class="details">
+                        <li><a href="./sub1.html">소식</a></li>
+                        <li><a href="./sub1.html">이벤트</a></li>
+                        <li><a href="./sub1.html">친절 우수매장</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="group">
+                        <a href="./sub1.html">매장안내</a>
+                        <img src="./images/down.png" alt="">
+                    </div>
+                </li>
+                <li>
+                    <div class="group">
+                        <a href="./sub1.html">커뮤니티</a>
+                        <img src="./images/down.png" alt="">
+                    </div>
+                    <ul class="details">
+                        <li><a href="./sub1.html">커피 이야기</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <div class="group">
+                        <a href="./sub1.html">고객센터</a>
+                        <img src="./images/down.png" alt="">
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <form>
+            <fieldset>
+                <legend class="skip">검색하기</legend>
+                <input type="text" placeholder="검색어를 입력해주세요">
+                <button type="button" id="u_search"><img src="./images/search.png" alt=""></button>
+            </fieldset>
+        </form>
+        <div class="scroll_menu">
+            <button type="button" id="up"><img src="./images/upload.png" alt="올라가기"></button>
+            <button type="button" id="search"><img src="./images/search.png" alt="검색하기"></button>
+            <button type="button" id="startup"><img src="./images/main_sec6_black.png" alt="창업바로가기"></button>
+        </div>
+        <h1><a href="#">MENU</a></h1>
+        <ul class="product_title">
+            <li>
+                <a href="./product1.html">NEW & BEST</a>
+                <sup>14</sup>
+            </li>
+            <li>
+                <a href="./product2.html">Coffee</a>
+                <sup>39</sup>
+            </li>
+            <li>
+                <a href="#">Drink</a>
+                <sup>77</sup>
+            </li>
+            <li>
+                <a href="#">Dessert</a>
+                <sup>16</sup>
+            </li>
+            <li>
+                <a href="#">Paik's ccino</a>
+                <sup>21</sup>
+            </li>
+        </ul>
+        <ul class="coffee_list">
+            <li>
+                <!-- <span class="best">BEST</span> -->
+                <a href="./new_details.html">
+                    <img src="./images/bread/bread2.png" alt="노말한소프트">
+                    <div class="btn_title">
+                        <p>노말한소프트</p>
+                        <span>ICE</span>
+                    </div>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <img src="./images/bread/bread9.png" alt="사라다빵">
+                    <div class="btn_title">
+                        <p>사라다빵</p>
+                    </div>
+                </a>
+            </li>
+        </ul>
+        <div class="list_btn">
+            <a href="./product1.html">1</a>
+            <a href="./product1-2.html">2</a>
+        </div>
+    </main>
+    <footer>
+        <div class="f_left">
+            <a href="#"><img src="./images/flogo.png" alt="더본로고"></a>
+            <address>
+                <P>(주)더본코리아 사업자등록번호 211-86-00870 대표이사 백종원</P>
+                <p>주소: 서울시 강남구 봉은사로 1길 39 유성빌딩 5~6층 팩스: 02-511-3864<p>
+                <p>고객센터: 1544-2360 본사 대표전화: 02-549-3864 가맹상담전화: 02-3447-0410</p>
+            </address>
+        </div>
+        <div class="f_right">
+            <div class="sns">
+                <p>#Paik's SNS</p>
+                <a href="https://ko-kr.facebook.com/ipaikscoffee/" target="_blank"><img src="./images/sns/facebook_icon.png" alt="페이스북"></a>
+                <a href="https://www.instagram.com/paikscoffee_official/" target="_blank"><img src="./images/sns/insta_icon.png" alt="인스타그램"></a>
+            </div>
+            <div class="family_site">
+                <span>패밀리사이트 바로가기</span>
+                <ul class="family">
+                    <li><a href="#">더본코리아</a></li>
+                    <li><a href="#">새마을식당</a></li>
+                    <li><a href="#">한신포차</a></li>
+                    <li><a href="#">역전우동</a></li>
+                    <li><a href="#">롤링파스타</a></li>
+                    <li><a href="#">인생설렁탕</a></li>
+                    <li><a href="#">미정국수</a></li>
+                    <li><a href="#">리춘시장</a></li>
+                    <li><a href="#">원조쌈밥집</a></li>
+                    <li><a href="#">돌배기집</a></li>
+                    <li><a href="#">백철판</a></li>
+                    <li><a href="#">호텔더본</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <p class="copyright">COPYRIGHTⓒ 2018 THEBORN KOREA INC. ALL RIGHTS RESERVED</p>
+    <script src="./js/script.js"></script>
+</body>
+</html>
