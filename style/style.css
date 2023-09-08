@@ -15,7 +15,7 @@ main .inner {
     height:110px;
     background-image:url(../images/inner.png);
     background-repeat:repeat-x;
-    animation:inner 40s linear  infinite;
+    animation:inner 80s linear  infinite;
 }
 /* main2 */
 main h2 {text-align:center; margin-top:85px; margin-bottom:50px;}
@@ -26,6 +26,8 @@ main h2 a {
 main .main2 {
     display:flex; flex-flow:row nowrap; align-items:center; 
     margin-bottom:123px;
+    border-top:3px solid #FFE800;
+    border-bottom:3px solid #FFE800;
 }
 main .main2 .menu_list {
     display:flex; flex-flow:column nowrap; align-items:flex-start;
@@ -42,16 +44,6 @@ main .main2 .menu_list button:hover span {
     display:block; width:115%; position:relative;
     height:5px; background: #FFE800; border-radius:50px;
 }
-main .main2 .menu_list #list01 {}
-main .main2 .menu_list #list01 span {}
-main .main2 .menu_list #list02 {}
-main .main2 .menu_list #list02 span {}
-main .main2 .menu_list #list03 {}
-main .main2 .menu_list #list03 span {}
-main .main2 .menu_list #list04 {}
-main .main2 .menu_list #list04 span {}
-main .main2 .menu_list #list05 {}
-main .main2 .menu_list #list05 span {}
 main .main2 .best {
     background-image:url(../images/best.png);
     height:100px; width:100px;
@@ -61,15 +53,14 @@ main .main2 .menu_product {
     display:flex; flex-flow:row nowrap;
     width:55vh;
 }
-main .main2 a {}
+main .main2 a {
+}
 main .main2 a img {width:400px; height:600px;}
 main .main2 .menu_product #product .best_product {}
 main .main2 .menu_product #product .best_product .swiper-slide {
     padding:15px 0;
     display:flex; flex-flow:column nowrap; align-items:center;
     font-family:'MBC1961M'; color:#071F60;
-    border-top:3px solid #FFE800;
-    border-bottom:3px solid #FFE800;
 }
 main .main2 .menu_product #product .best_product .swiper-slide img {width:300px; height:400px;}
 /* main3 */
